@@ -238,10 +238,6 @@ Les contributions sont les bienvenues ! Pour contribuer :
 - Ajouter des **tests unitaires** si possible
 - Commenter les parties complexes du code
 
-## 📝 Licence
-
-Ce projet est sous licence **MIT**. Voir le fichier [LICENSE](LICENSE) pour plus de détails.
-
 ## 👤 Auteur
 
 **Votre Nom**
