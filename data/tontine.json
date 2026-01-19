@@ -1,0 +1,132 @@
+{
+    "membres": {
+        "M001": {
+            "id_membre": "M001",
+            "nom": "DIOP",
+            "prenom": "Amadou",
+            "email": "amadou.diop@email.com",
+            "telephone": "+221771234567",
+            "actif": true,
+            "date_inscription": "2024-01-15 10:30:00"
+        },
+        "M002": {
+            "id_membre": "M002",
+            "nom": "FALL",
+            "prenom": "Fatou",
+            "email": "fatou.fall@email.com",
+            "telephone": "+221772345678",
+            "actif": true,
+            "date_inscription": "2024-01-15 11:00:00"
+        },
+        "M003": {
+            "id_membre": "M003",
+            "nom": "NDIAYE",
+            "prenom": "Moussa",
+            "email": "moussa.ndiaye@email.com",
+            "telephone": "+221773456789",
+            "actif": true,
+            "date_inscription": "2024-01-15 11:30:00"
+        },
+        "M004": {
+            "id_membre": "M004",
+            "nom": "SOW",
+            "prenom": "Aissatou",
+            "email": "aissatou.sow@email.com",
+            "telephone": "+221774567890",
+            "actif": true,
+            "date_inscription": "2024-01-15 12:00:00"
+        },
+        "M005": {
+            "id_membre": "M005",
+            "nom": "BA",
+            "prenom": "Ibrahima",
+            "email": "ibrahima.ba@email.com",
+            "telephone": "+221775678901",
+            "actif": true,
+            "date_inscription": "2024-01-15 12:30:00"
+        },
+        "M006": {
+            "id_membre": "M006",
+            "nom": "Boubacar",
+            "prenom": "Thiam",
+            "email": "boubacar005@icloud.com",
+            "telephone": "784061791",
+            "actif": true,
+            "date_inscription": "2026-01-19 18:03:29"
+        }
+    },
+    "cycles": {
+        "C001": {
+            "id_cycle": "C001",
+            "montant_cotisation": 50000,
+            "duree_mois": 5,
+            "date_debut": "2024-01-01",
+            "membres_ids": [
+                "M001",
+                "M002",
+                "M003",
+                "M004",
+                "M005"
+            ],
+            "ordre_passage": [
+                "M003",
+                "M001",
+                "M005",
+                "M002",
+                "M004"
+            ],
+            "mois_actuel": 0,
+            "termine": false,
+            "date_creation": "2024-01-15 13:00:00"
+        }
+    },
+    "transactions": [
+        {
+            "id_transaction": "T0001",
+            "id_membre": "M001",
+            "id_cycle": "C001",
+            "montant": 50000,
+            "type_transaction": "cotisation",
+            "mois": 0,
+            "penalite": 0,
+            "date_transaction": "2024-01-15 14:00:00"
+        },
+        {
+            "id_transaction": "T0002",
+            "id_membre": "M002",
+            "id_cycle": "C001",
+            "montant": 50000,
+            "type_transaction": "cotisation",
+            "mois": 0,
+            "penalite": 0,
+            "date_transaction": "2024-01-15 14:15:00"
+        },
+        {
+            "id_transaction": "T0003",
+            "id_membre": "M003",
+            "id_cycle": "C001",
+            "montant": 50000,
+            "type_transaction": "cotisation",
+            "mois": 0,
+            "penalite": 0,
+            "date_transaction": "2024-01-15 14:30:00"
+        },
+        {
+            "id_transaction": "T0004",
+            "id_membre": "M004",
+            "id_cycle": "C001",
+            "montant": 40000,
+            "type_transaction": "cotisation",
+            "mois": 0,
+            "penalite": 1000,
+            "date_transaction": "2024-01-15 14:45:00"
+        }
+    ],
+    "soldes": {
+        "M001": -50000,
+        "M002": -50000,
+        "M003": -50000,
+        "M004": -41000,
+        "M005": 0
+    }
+}
