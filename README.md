@@ -145,7 +145,7 @@ Entrez simplement le numéro correspondant à l'action souhaitée.
 4. **Vérifier les retards** et pénalités
 5. **Consulter les rapports** et l'historique
 
-## 📊 Structure des données
+##  Structure des données
 
 ### Format JSON (data/tontine.json)
 
