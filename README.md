@@ -1,8 +1,8 @@
-# 🏦 Système de Gestion de Tontine Numérique
+#  Système de Gestion de Tontine Numérique
 
 
 
-## 🎯 Contexte du projet
+## Contexte du projet
 
 Une **tontine** est un système d'épargne rotatif traditionnel largement utilisé en Afrique et dans d'autres régions du monde. Les membres cotisent régulièrement un montant fixe, et chaque mois, un membre différent reçoit la totalité de la cagnotte.
 
@@ -20,40 +20,40 @@ Ce projet vise à **digitaliser** ce processus en offrant :
 - Application des **bonnes pratiques** de développement
 - Projet valorisable sur un **CV** ou un portfolio GitHub
 
-## ✨ Fonctionnalités
+## Fonctionnalités
 
 ### 1. Gestion des Membres
-- ➕ Ajouter un nouveau membre avec ses informations (nom, prénom, email, téléphone)
-- ✏️ Modifier les informations d'un membre existant
-- 🗑️ Supprimer un membre
-- 🔄 Activer ou désactiver un membre
-- 📋 Afficher la liste complète des membres
+- Ajouter un nouveau membre avec ses informations (nom, prénom, email, téléphone)
+-  Modifier les informations d'un membre existant
+- Supprimer un membre
+- Activer ou désactiver un membre
+-  Afficher la liste complète des membres
 
 ### 2. Gestion des Cycles
-- 🔁 Créer un nouveau cycle avec :
+- Créer un nouveau cycle avec :
   - Montant de cotisation mensuelle
   - Durée en mois
   - Date de début
   - Sélection des membres participants
-- 🎲 Génération automatique de l'ordre de passage aléatoire
-- 📊 Affichage de l'état du cycle en cours
-- 📜 Consultation de l'historique de tous les cycles
-- ✔️ Terminer manuellement un cycle
+- Génération automatique de l'ordre de passage aléatoire
+- Affichage de l'état du cycle en cours
+- Consultation de l'historique de tous les cycles
+- Terminer manuellement un cycle
 
 ### 3. Gestion des Cotisations
-- 💰 Enregistrement des cotisations mensuelles
-- ⏰ Vérification automatique des retards de paiement
-- ⚠️ Application automatique de pénalités (10% du montant manquant)
-- 💳 Calcul et affichage du solde de chaque membre
-- 📈 Tableau récapitulatif des soldes
+- Enregistrement des cotisations mensuelles
+-  Vérification automatique des retards de paiement
+- Application automatique de pénalités (10% du montant manquant)
+- Calcul et affichage du solde de chaque membre
+- Tableau récapitulatif des soldes
 
 ### 4. Historique et Rapports
-- 📝 Historique complet de toutes les transactions
-- 📊 Génération de rapports mensuels détaillés
-- 📤 Export des données en format CSV
-- 📉 Suivi de la progression du cycle
+- Historique complet de toutes les transactions
+-  Génération de rapports mensuels détaillés
+- Export des données en format CSV
+- Suivi de la progression du cycle
 
-## 🏗️ Architecture
+##  Architecture
 
 ```
 tontine_app/
@@ -82,12 +82,12 @@ tontine_app/
 
 **Gestionnaires** : Classes responsables de la logique métier et de la persistance des données
 
-## 📦 Prérequis
+##  Prérequis
 
 - **Python 3.8 ou supérieur**
 - Aucune bibliothèque externe requise (uniquement modules standards)
 
-## 🚀 Installation
+##  Installation
 
 1. **Cloner le dépôt**
 ```bash
@@ -194,7 +194,7 @@ Entrez simplement le numéro correspondant à l'action souhaitée.
 }
 ```
 
-## 🎮 Exemples d'utilisation
+## Exemples d'utilisation
 
 ### Exemple 1 : Créer une tontine de 5 personnes
 
@@ -222,7 +222,7 @@ Entrez simplement le numéro correspondant à l'action souhaitée.
 4. Analyser les données dans Excel ou LibreOffice
 
 
-## 🤝 Contribution
+## Contribution
 
 Les contributions sont les bienvenues ! Pour contribuer :
 
@@ -238,7 +238,7 @@ Les contributions sont les bienvenues ! Pour contribuer :
 - Ajouter des **tests unitaires** si possible
 - Commenter les parties complexes du code
 
-## 👤 Auteur
+##  Auteur
 
 **Votre Nom**
 - GitHub: [Boubacar Thiam](https://github.com/BoubacarThiam)
@@ -249,6 +249,6 @@ Les contributions sont les bienvenues ! Pour contribuer :
 - Inspiration : Systèmes de tontine traditionnels africains
 
 
-**⭐ Si ce projet vous est utile, n'oubliez pas de lui donner une étoile sur GitHub !**
+** Si ce projet vous est utile, n'oubliez pas de lui donner une étoile sur GitHub !**
 
-**📚 Conçu avec ❤️ pour l'apprentissage et le développement de compétences professionnelles**
+**Conçu avec pour l'apprentissage et le développement de compétences professionnelles**
